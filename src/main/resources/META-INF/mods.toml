@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0 "
+
+[[mods]]
+modId="mob_picker"
+version="1.2"
+displayName="mob picker"
+displayURL="https://mcreator.net"
+credits="Thanks For play my mod"
+authors="SolemCell"
+description="mod picked Player and mob"
+
+[[dependencies.mob_picker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

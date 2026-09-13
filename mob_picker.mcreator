@@ -1,0 +1,62 @@
+{
+  "mod_elements": [
+    {
+      "name": "MobPicker",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_picker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mob_picker/models/item/mob_picker.json",
+          "src/main/java/mob_picker/item/MobPickerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MobPickerRepice",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_picker_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mob_picker/recipes/mob_picker_repice.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mob_picker.mob_picker": "Mob Picker"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mob_picker",
+    "modName": "mob picker",
+    "version": "1.2",
+    "description": "mod picked Player and mob",
+    "author": "SolemCell",
+    "websiteURL": "https://youtube/@SolemnYT",
+    "license": "Academic Free License v3.0 ",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Thanks For play my mod",
+    "modElementsPackage": "mob_picker",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
